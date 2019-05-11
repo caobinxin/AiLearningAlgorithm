@@ -7,3 +7,6 @@ pandas == 0.18.1
 pydot == 1.2.3
 scikit_learn == 0.19.1
 xgboost == 0.6
+
+安装的命令：
+conda install pydot=1.2.3
