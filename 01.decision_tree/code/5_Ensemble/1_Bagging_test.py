@@ -17,7 +17,7 @@ from sklearn.datasets import load_iris, load_digits, load_boston
 # X = array[:,0:8]
 # Y = array[:,8]
 iris = load_iris()
-y = iris['target']
+Y = iris['target']
 X = iris['data']
 seed = 7
 kfold = model_selection.KFold(n_splits=10, random_state=seed)

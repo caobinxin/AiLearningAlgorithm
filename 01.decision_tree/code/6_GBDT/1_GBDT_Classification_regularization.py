@@ -1,3 +1,4 @@
+# encoding: utf-8
 print(__doc__)
 
 # The loss function used is binomial deviance. Regularization via shrinkage (learning_rate < 1.0) improves performance considerably.

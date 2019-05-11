@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # DecisionTreeClassifier is a class capable of performing multi-class classification on a dataset.
 # scikit-learn决策树算法类库内部实现是使用了调优过的CART树算法，
 # 既可以做分类，又可以做回归。分类决策树的类对应的是DecisionTreeClassifier，

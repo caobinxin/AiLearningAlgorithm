@@ -1,3 +1,4 @@
+# encoding: utf-8
 print(__doc__)
 
 # Import the necessary modules and libraries

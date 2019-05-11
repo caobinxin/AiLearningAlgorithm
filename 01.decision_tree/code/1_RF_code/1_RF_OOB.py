@@ -1,3 +1,4 @@
+# encoding: utf-8
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 from sklearn.datasets import make_classification

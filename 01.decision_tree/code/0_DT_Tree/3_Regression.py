@@ -1,3 +1,4 @@
+# encoding: utf-8
 from sklearn import tree
 X = [[0, 0], [2, 2]] # 时间 估值
 y = [0.5, 2.5] # 股价
