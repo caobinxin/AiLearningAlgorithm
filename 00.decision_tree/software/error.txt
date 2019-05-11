@@ -1,0 +1,2 @@
+“dot.exe” not found in path. Pydot on Python (windows 7)
+https://stackoverflow.com/questions/40632486/dot-exe-not-found-in-path-pydot-on-python-windows-7
