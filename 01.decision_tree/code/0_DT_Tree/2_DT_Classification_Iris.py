@@ -3,7 +3,7 @@ from sklearn import tree
 import os
 import pydot # need install
 print(os.getcwd())
-clf = tree.DecisionTreeClassifier(criterion = "entropy") #gini
+clf = tree.DecisionTreeClassifier(criterion = "gini") #gini entropy
 iris = load_iris()
 print(iris.data[0:5])
 print(iris.target[0:5])

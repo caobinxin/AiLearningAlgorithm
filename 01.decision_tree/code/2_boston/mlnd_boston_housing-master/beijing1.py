@@ -1,3 +1,4 @@
+# encoding: utf-8
 # TODO 6
 # 载入此项目所需要的库
 import numpy as np

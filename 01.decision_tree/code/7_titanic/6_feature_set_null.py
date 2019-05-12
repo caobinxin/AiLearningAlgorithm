@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 """
 缺失值处理
 观察一可得数据中存在缺失值

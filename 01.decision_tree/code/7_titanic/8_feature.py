@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 """
 # (4) 特征工程 - 特征抽取
 # 我们把需要的feature字段取出来，转成numpy格式，使用scikit-learn中的LogisticRegression建模

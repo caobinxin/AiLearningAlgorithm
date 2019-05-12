@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
@@ -101,7 +101,7 @@ def set_Cabin_type(df):
     return df
 
 # (1) 读取数据集
-data_train = pd.read_csv("data\\train.csv")
+data_train = pd.read_csv("data/train.csv")
 
 # (2) 特征工程 - 处理缺失值
 data_train, rfr = set_missing_ages(data_train)

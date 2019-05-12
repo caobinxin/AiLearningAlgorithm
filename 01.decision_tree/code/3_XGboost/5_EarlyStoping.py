@@ -1,3 +1,4 @@
+# encoding: utf-8
 import pickle
 import xgboost as xgb
 import numpy as np

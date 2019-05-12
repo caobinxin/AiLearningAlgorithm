@@ -1,3 +1,4 @@
+# encoding: utf-8
 # 载入此项目所需要的库
 import numpy as np
 import pandas as pd
@@ -6,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
 # 载入波士顿房屋的数据集
-data = pd.read_csv('2_boston/mlnd_boston_housing-master/bj_housing.csv')
+data = pd.read_csv('bj_housing.csv')
 prices = data['Value']
 features = data.drop('Value', axis = 1)
 

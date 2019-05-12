@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 """
 本次实战选择决策书作为分类算法，因此可以避免问题
 至此来观察数据特征，以更好的选择算法

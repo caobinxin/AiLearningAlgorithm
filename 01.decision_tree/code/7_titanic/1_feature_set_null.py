@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 """
 数据类型与分布研究
 对于列名查看如下：

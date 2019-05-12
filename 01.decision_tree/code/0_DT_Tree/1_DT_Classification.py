@@ -17,6 +17,6 @@ from sklearn import tree
 X = [[1,1,1,1], [2,2,2,2], [2,2,2,0]]
 y = [0, 0, 2] # 花类别
 clf = tree.DecisionTreeClassifier(criterion = "entropy")
-clf = clf.fit(X, y)
+clf = clf.fit(X, y) #训练模型
 # After being fitted, the model can then be used to predict the class of samples:
-print(clf.predict([[2., 2., 3., 4.]]))
+print(clf.predict([[2., 2., 1.8, 0.7]])) #这个是做预测

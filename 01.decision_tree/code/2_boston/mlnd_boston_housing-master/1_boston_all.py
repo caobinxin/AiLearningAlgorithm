@@ -1,3 +1,4 @@
+# encoding: utf-8
 # 载入此项目所需要的库
 import numpy as np
 import pandas as pd

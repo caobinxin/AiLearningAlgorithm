@@ -3,7 +3,7 @@
 import sys
 import io
 #改变标准输出的默认编码
-sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 """
 # (3) 特特工程 - 类目型的特征离散/因子化
 # 因为逻辑回归建模时，需要输入的特征都是数值型特征
